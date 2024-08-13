@@ -1,0 +1,15 @@
+{
+  "name": "deskicons",
+  "version": "1.0.0",
+  "description": "Desk Icons by Desk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deskicons",
+    "icons"
+  ],
+  "author": "Desk",
+  "license": "ISC"
+}
