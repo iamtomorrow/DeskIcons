@@ -4,12 +4,16 @@
   "description": "Desk Icons by Desk.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "svgr src/icons --out-dir lib/icons"
   },
   "keywords": [
     "deskicons",
     "icons"
   ],
   "author": "Desk",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@svgr/cli": "^8.1.0"
+  }
 }
